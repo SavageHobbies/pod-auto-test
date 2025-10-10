@@ -1,6 +1,7 @@
+// App.tsx
 
 import React, { useState, useCallback } from 'react';
-import { AppView, DesignAsset, Job, WorkflowState, AppNotification } from './types.ts';
+import { AppView, DesignAsset, Job, WorkflowState, AppNotification, StagedProduct } from './types.ts';
 
 import Sidebar from './components/Sidebar.tsx';
 import Dashboard from './components/Dashboard.tsx';
@@ -15,6 +16,7 @@ import Analytics from './components/Analytics.tsx';
 import Settings from './components/Settings.tsx';
 import JobStatusPanel from './components/JobStatusPanel.tsx';
 import Notification from './components/Notification.tsx';
+import Staging from './components/Staging.tsx';
 
 const App: React.FC = () => {
     const [currentView, setCurrentView] = useState<AppView>('dashboard');
@@ -22,10 +24,15 @@ const App: React.FC = () => {
     const [jobs, setJobs] = useState<Job[]>([]);
     const [workflowState, setWorkflowState] = useState<WorkflowState | null>(null);
     const [notification, setNotification] = useState<AppNotification | null>(null);
+    const [stagedProducts, setStagedProducts] = useState<StagedProduct[]>([]);
 
     const showNotification = useCallback((message: string, type: 'success' | 'error') => {
         setNotification({ message, type });
     }, []);
+    
+    const addStagedProducts = (products: StagedProduct[]) => {
+        setStagedProducts(prev => [...prev, ...products]);
+    };
 
     const addAsset = useCallback((newAsset: DesignAsset) => {
         setAssets(prev => [newAsset, ...prev]);
@@ -49,9 +56,17 @@ const App: React.FC = () => {
             selectedProduct: null,
             selectedProvider: null,
             selectedColors: [],
-            mockups: [],
+            selectedLightColors: [],
+            selectedDarkColors: [],
+            mockups: {
+                light: [],
+                dark: []
+            },
             mockupGenerationConfig: undefined,
-            videoUrl: null,
+            videoUrls: {
+                light: null,
+                dark: null,
+            },
             marketingCopy: null,
         });
         if (!assets.some(a => a.id === asset.id)) {
@@ -68,6 +83,13 @@ const App: React.FC = () => {
         setWorkflowState(null);
         setCurrentView('dashboard');
     }, []);
+    
+    const handleStageProducts = (products: StagedProduct[]) => {
+        addStagedProducts(products);
+        showNotification(`${products.length} product(s) sent to the Staging Area.`, 'success');
+        resetWorkflow();
+        setCurrentView('staging');
+    };
     
     const renderView = () => {
         switch (currentView) {
@@ -86,7 +108,9 @@ const App: React.FC = () => {
             case 'marketingCopy':
                 return <MarketingGenerator workflowState={workflowState} updateWorkflow={updateWorkflow} setCurrentView={setCurrentView} addJob={addJob} updateJobStatus={updateJobStatus} />;
             case 'reviewAndPublish':
-                return <ReviewAndPublish workflowState={workflowState} onPublish={resetWorkflow} showNotification={showNotification} addJob={addJob} updateJobStatus={updateJobStatus} setCurrentView={setCurrentView} updateWorkflow={updateWorkflow} />;
+                return <ReviewAndPublish workflowState={workflowState} onStageProducts={handleStageProducts} showNotification={showNotification} addJob={addJob} updateJobStatus={updateJobStatus} setCurrentView={setCurrentView} updateWorkflow={updateWorkflow} />;
+            case 'staging':
+                return <Staging stagedProducts={stagedProducts} showNotification={showNotification} />;
             case 'analytics':
                 return <Analytics />;
             case 'settings':

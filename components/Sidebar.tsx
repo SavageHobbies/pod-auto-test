@@ -11,6 +11,7 @@ import MockupIcon from './icons/MockupIcon.tsx';
 import MarketingIcon from './icons/MarketingIcon.tsx';
 import TagIcon from './icons/TagIcon.tsx';
 import ClipboardCheckIcon from './icons/ClipboardCheckIcon.tsx';
+import OutboxIcon from './icons/OutboxIcon.tsx';
 
 
 interface SidebarProps {
@@ -63,7 +64,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, setCurrentView, workflow
 
     if (step.requires) {
         for (const req of step.requires) {
-            if (req === 'mockups' && workflowState.mockups.length === 0) return true;
+             if (req === 'mockups' && workflowState.mockups.light.length === 0 && workflowState.mockups.dark.length === 0) return true;
             if (!workflowState[req]) return true;
         }
     }
@@ -73,6 +74,7 @@ const Sidebar: React.FC<SidebarProps> = ({ currentView, setCurrentView, workflow
   const mainTools: { view: AppView; label: string; icon: React.ReactNode }[] = [
     { view: 'dashboard', label: 'Dashboard', icon: <DashboardIcon /> },
     { view: 'assetLibrary', label: 'Asset Library', icon: <LibraryIcon /> },
+    { view: 'staging', label: 'Staging Area', icon: <OutboxIcon /> },
     { view: 'trendResearch', label: 'Trend Research', icon: <ResearchIcon /> },
     { view: 'analytics', label: 'Analytics', icon: <AnalyticsIcon /> },
   ];

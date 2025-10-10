@@ -1,4 +1,6 @@
-import React from 'react';
+// components/ProductSelection.tsx
+
+import React, { useState } from 'react';
 import { WorkflowState, Product, AppView } from '../types.ts';
 import { productCatalog } from '../data/catalog.ts';
 
@@ -19,7 +21,21 @@ const ProductCard: React.FC<{ product: Product, onSelect: () => void, isSelected
     </div>
 );
 
+// Helper to determine if a color is dark
+const isColorDark = (hexColor: string): boolean => {
+    if (!hexColor) return false;
+    const color = hexColor.startsWith('#') ? hexColor.substring(1, 7) : hexColor;
+    if (color.length < 6) return false;
+    const r = parseInt(color.substring(0, 2), 16);
+    const g = parseInt(color.substring(2, 4), 16);
+    const b = parseInt(color.substring(4, 6), 16);
+    // Using the luminance formula
+    const luminance = (0.299 * r + 0.587 * g + 0.114 * b) / 255;
+    return luminance < 0.5;
+};
+
 const ProductSelection: React.FC<ProductSelectionProps> = ({ workflowState, updateWorkflow, setCurrentView }) => {
+    const [showDarkColorInfo, setShowDarkColorInfo] = useState(false);
     const selectedProduct = workflowState?.selectedProduct;
 
     const handleProductSelect = (product: Product) => {
@@ -28,16 +44,42 @@ const ProductSelection: React.FC<ProductSelectionProps> = ({ workflowState, upda
             selectedProduct: product,
             selectedProvider: defaultProvider,
             selectedColors: [],
+            selectedLightColors: [],
+            selectedDarkColors: [],
         });
+        setShowDarkColorInfo(false);
     };
     
-    const handleColorToggle = (colorValue: string) => {
-        if (!selectedProduct) return;
-        const currentColors = workflowState?.selectedColors || [];
-        const newColors = currentColors.includes(colorValue)
-            ? currentColors.filter(c => c !== colorValue)
-            : [...currentColors, colorValue];
-        updateWorkflow({ selectedColors: newColors });
+    const handleColorToggle = (colorValue: string, hex?: string) => {
+        if (!selectedProduct || !workflowState) return;
+
+        const { selectedColors, selectedLightColors, selectedDarkColors } = workflowState;
+        
+        const isDark = hex ? isColorDark(hex) : false;
+        
+        const newColors = selectedColors.includes(colorValue)
+            ? selectedColors.filter(c => c !== colorValue)
+            : [...selectedColors, colorValue];
+
+        const newLightColors = newColors.filter(c => {
+            const option = selectedProduct.variants.find(v => v.name === 'Color')?.options.find(o => o.value === c);
+            return option?.hex ? !isColorDark(option.hex) : true;
+        });
+        
+        const newDarkColors = newColors.filter(c => {
+            const option = selectedProduct.variants.find(v => v.name === 'Color')?.options.find(o => o.value === c);
+            return option?.hex ? isColorDark(option.hex) : false;
+        });
+
+        if (isDark && !selectedColors.includes(colorValue)) {
+            setShowDarkColorInfo(true);
+        }
+
+        updateWorkflow({ 
+            selectedColors: newColors,
+            selectedLightColors: newLightColors,
+            selectedDarkColors: newDarkColors
+        });
     };
 
     if (!workflowState || !workflowState.asset) {
@@ -67,11 +109,16 @@ const ProductSelection: React.FC<ProductSelectionProps> = ({ workflowState, upda
             {selectedProduct && (
                 <div className="bg-slate-800 p-6 rounded-lg">
                     <h2 className="text-xl font-semibold mb-4">Select Colors for <span className="text-brand-primary">{selectedProduct.name}</span></h2>
+                    {showDarkColorInfo && (
+                        <div className="bg-slate-700 border border-slate-600 text-slate-300 text-sm rounded-md p-3 mb-4">
+                            <b>Note:</b> For dark-colored products, we'll automatically generate a light-colored (inverted) version of your design to ensure it's visible.
+                        </div>
+                    )}
                     <div className="flex flex-wrap gap-3">
                         {selectedProduct.variants.find(v => v.name === 'Color')?.options.map(option => (
                             <button
                                 key={option.value}
-                                onClick={() => handleColorToggle(option.value)}
+                                onClick={() => handleColorToggle(option.value, option.hex)}
                                 className={`h-12 w-12 rounded-full border-2 transition-all duration-200 ${workflowState.selectedColors.includes(option.value) ? 'border-brand-primary scale-110 ring-2 ring-brand-primary' : 'border-slate-500'}`}
                                 style={{ backgroundColor: option.hex || 'transparent' }}
                                 title={option.value}

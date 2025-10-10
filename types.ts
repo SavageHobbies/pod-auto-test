@@ -1,3 +1,5 @@
+// types.ts
+
 export type AppView = 
   | 'dashboard' 
   | 'assetLibrary' 
@@ -8,7 +10,8 @@ export type AppView =
   | 'reviewAndPublish'
   | 'trendResearch' 
   | 'analytics' 
-  | 'settings';
+  | 'settings'
+  | 'staging'; // New view for staged products
 
 export interface DesignAsset {
   id: number;
@@ -82,6 +85,19 @@ export interface MockupData {
   params: MockupGenerationParams;
 }
 
+// For Staging Area
+export interface StagedProduct {
+    id: number;
+    designImageUrl: string;
+    productName: string;
+    providerName: string;
+    basePrice: number;
+    colors: string[];
+    marketingCopy: MarketingCopy;
+    mockups: MockupData[];
+    videoUrl: string | null;
+}
+
 
 // For Workflow State Management
 export interface WorkflowState {
@@ -90,10 +106,19 @@ export interface WorkflowState {
   selectedProduct: Product | null;
   selectedProvider: Provider | null;
   selectedColors: string[];
-  mockups: MockupData[];
+  selectedLightColors: string[];
+  selectedDarkColors: string[];
+  mockups: {
+    light: MockupData[];
+    dark: MockupData[];
+  };
   mockupGenerationConfig?: {
       theme: string;
   };
-  videoUrl: string | null;
+  // New: Separate video URLs for each package
+  videoUrls: {
+      light: string | null;
+      dark: string | null;
+  };
   marketingCopy: MarketingCopy | null;
 }

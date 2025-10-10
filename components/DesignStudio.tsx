@@ -1,3 +1,5 @@
+// components/DesignStudio.tsx
+
 import React, { useState, useCallback } from 'react';
 import { generateDesignImage, editDesignImage } from '../services/geminiService.ts';
 import { DesignAsset, Job } from '../types.ts';
@@ -5,6 +7,7 @@ import CreateIcon from './icons/CreateIcon.tsx';
 import SpinnerIcon from './icons/SpinnerIcon.tsx';
 import SparklesIcon from './icons/SparklesIcon.tsx';
 import DownloadIcon from './icons/DownloadIcon.tsx';
+import XIcon from './icons/XIcon.tsx';
 
 interface DesignStudioProps {
   startWorkflow: (asset: DesignAsset) => void;
@@ -34,6 +37,7 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
   const [referenceImagePreview, setReferenceImagePreview] = useState<string | null>(null);
   const [generatedImageUrl, setGeneratedImageUrl] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [isImageModalOpen, setIsImageModalOpen] = useState(false);
 
   const styleHelpers = ['Cartoon', 'Vintage', 'Sketch', 'Black and White'];
   const textHelpers = ['Add a funny quote', 'Add an inspirational message', 'Add a bold statement'];
@@ -116,6 +120,23 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
   };
 
   return (
+    <>
+    {isImageModalOpen && generatedImageUrl && (
+        <div 
+            className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center animate-fade-in-down"
+            onClick={() => setIsImageModalOpen(false)}
+        >
+            <div className="relative p-4" onClick={(e) => e.stopPropagation()}>
+                <img src={generatedImageUrl} className="max-h-[90vh] max-w-[90vw] rounded-lg" alt="Enlarged design" />
+                <button 
+                    onClick={() => setIsImageModalOpen(false)}
+                    className="absolute -top-2 -right-2 bg-white rounded-full p-1 text-slate-800 hover:bg-slate-200"
+                >
+                    <XIcon className="w-6 h-6" />
+                </button>
+            </div>
+        </div>
+    )}
     <div className="max-w-4xl mx-auto space-y-8">
       <div className="text-center">
         <CreateIcon className="mx-auto h-12 w-12 text-brand-primary" />
@@ -177,7 +198,7 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
       {(stage === 'approving' || stage === 'modifying') && generatedImageUrl && (
         <div className="bg-slate-800 p-6 rounded-lg space-y-6 border border-slate-700">
             <h2 className="text-2xl font-bold text-center">Your Generated Design</h2>
-            <div className="flex justify-center bg-slate-700 p-4 rounded-lg relative">
+            <div className="flex justify-center bg-slate-700 p-4 rounded-lg relative cursor-zoom-in" onClick={() => setIsImageModalOpen(true)}>
                  {stage === 'modifying' && (
                     <div className="absolute inset-0 bg-slate-900/80 flex flex-col items-center justify-center rounded-lg z-10">
                         <SpinnerIcon className="h-10 w-10"/><p className="mt-4 text-slate-300">Modifying...</p>
@@ -201,6 +222,7 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
         </div>
       )}
     </div>
+    </>
   );
 };
 
