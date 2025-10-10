@@ -50,6 +50,7 @@ const App: React.FC = () => {
             selectedProvider: null,
             selectedColors: [],
             mockups: [],
+            mockupGenerationConfig: undefined,
             videoUrl: null,
             marketingCopy: null,
         });
@@ -85,9 +86,7 @@ const App: React.FC = () => {
             case 'marketingCopy':
                 return <MarketingGenerator workflowState={workflowState} updateWorkflow={updateWorkflow} setCurrentView={setCurrentView} addJob={addJob} updateJobStatus={updateJobStatus} />;
             case 'reviewAndPublish':
-                // FIX: Pass addJob and updateJobStatus to ReviewAndPublish to allow job tracking.
-                // FIX: Pass `setCurrentView` to `ReviewAndPublish` to enable back navigation.
-                return <ReviewAndPublish workflowState={workflowState} onPublish={resetWorkflow} showNotification={showNotification} addJob={addJob} updateJobStatus={updateJobStatus} setCurrentView={setCurrentView} />;
+                return <ReviewAndPublish workflowState={workflowState} onPublish={resetWorkflow} showNotification={showNotification} addJob={addJob} updateJobStatus={updateJobStatus} setCurrentView={setCurrentView} updateWorkflow={updateWorkflow} />;
             case 'analytics':
                 return <Analytics />;
             case 'settings':

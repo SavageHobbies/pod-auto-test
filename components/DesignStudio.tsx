@@ -36,6 +36,7 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
   const [error, setError] = useState<string | null>(null);
 
   const styleHelpers = ['Cartoon', 'Vintage', 'Sketch', 'Black and White'];
+  const textHelpers = ['Add a funny quote', 'Add an inspirational message', 'Add a bold statement'];
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -137,17 +138,22 @@ const DesignStudio: React.FC<DesignStudioProps> = ({ startWorkflow, addJob, upda
                  <label className="block text-sm font-medium text-slate-400 mb-2">Style Helpers</label>
                  <div className="flex flex-wrap gap-2">
                      {styleHelpers.map(style => (
-                         <button key={style} onClick={() => setPrompt(p => `${p}, ${style.toLowerCase()} style`)} className="px-3 py-1 bg-slate-600 hover:bg-slate-500 rounded-md text-sm">{style}</button>
+                         <button key={style} onClick={() => setPrompt(p => `${p}${p ? ', ' : ''}${style.toLowerCase()} style`)} className="px-3 py-1 bg-slate-600 hover:bg-slate-500 rounded-md text-sm">{style}</button>
                      ))}
                  </div>
             </div>
              <div>
                 <label className="block text-lg font-medium text-slate-300 mb-2">2. (Optional) Add Text to Design</label>
+                 <div className="flex flex-wrap gap-2 mb-2">
+                     {textHelpers.map(helper => (
+                         <button key={helper} onClick={() => setTextToAdd(helper)} className="px-3 py-1 bg-slate-600 hover:bg-slate-500 rounded-md text-sm">{helper}</button>
+                     ))}
+                 </div>
                 <input
                     type="text"
                     value={textToAdd}
                     onChange={(e) => setTextToAdd(e.target.value)}
-                    placeholder='e.g., "Nuts About Justice"'
+                    placeholder='e.g., "Nuts About Justice" or use a helper above'
                     className="w-full bg-slate-700 border border-slate-600 rounded-md px-4 py-2 focus:ring-2 focus:ring-brand-primary focus:outline-none"
                 />
             </div>

@@ -69,6 +69,20 @@ export interface Product {
   variants: Variant[];
 }
 
+// For Mockup Generation
+export type MockupStyle = 'flatLay' | 'folded' | 'hanging' | 'man' | 'woman' | 'kid';
+
+export interface MockupGenerationParams {
+  color: string;
+  style: MockupStyle;
+}
+
+export interface MockupData {
+  url: string;
+  params: MockupGenerationParams;
+}
+
+
 // For Workflow State Management
 export interface WorkflowState {
   asset: DesignAsset;
@@ -76,7 +90,10 @@ export interface WorkflowState {
   selectedProduct: Product | null;
   selectedProvider: Provider | null;
   selectedColors: string[];
-  mockups: string[];
+  mockups: MockupData[];
+  mockupGenerationConfig?: {
+      theme: string;
+  };
   videoUrl: string | null;
   marketingCopy: MarketingCopy | null;
 }
