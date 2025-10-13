@@ -1,0 +1,21 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    image: pod-automate:latest
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+
+  # Optional development service - runs vite dev server
+  dev:
+    image: node:20-alpine
+    working_dir: /app
+    volumes:
+      - ./:/app
+      - /app/node_modules
+    command: sh -c "npm ci --silent || npm install --silent; npm run dev -- --host 0.0.0.0"
+    ports:
+      - "5173:5173"
+    environment:
+      - CHOKIDAR_USEPOLLING=true

@@ -1,0 +1,1922 @@
+﻿{
+    "ok":  true,
+    "status":  200,
+    "body":  [
+                 {
+                     "shopId":  17992768,
+                     "shopName":  "Studio Prints",
+                     "product":  {
+                                     "id":  "68e7fadfa0c8ed2f2c0e129d",
+                                     "title":  "Personalized Patriotic V-Neck Tee, Custom Name Shirt, 4th of July Top, Memorial Day Outfit, Americana Graphic Tee",
+                                     "description":  "Introducing a versatile Unisex Jersey Short Sleeve V-Neck Tee that radiates comfort and style. This tee combines a casual aesthetic with a trendy silhouette, making it ideal for both laid-back days and semi-formal occasions. The lightweight cotton fabric ensures breathability, perfect for warm weather or layering in cooler seasons. Designed for adults, it’s great for anyone wanting to express their individual style comfortably. Celebrate special moments like birthdays, holidays, and gatherings while enjoying a piece that effortlessly fits into both everyday wear and festive celebrations!\u003cbr/\u003e\u003cbr/\u003eProduct features\u003cbr/\u003e- Designed with side seams for enhanced shape retention and structural support\u003cbr/\u003e- Features a ribbed knit collar that maintains its elasticity and shape\u003cbr/\u003e- Shoulder tape stabilizes the back, preventing stretching\u003cbr/\u003e- Made from lightweight 100% cotton for a smooth, comfortable experience\u003cbr/\u003e- Produced by Bella+Canvas under Fair Labor Association standards, ensuring humane and sustainable practices\u003cbr/\u003e\u003cbr/\u003eCare instructions\u003cbr/\u003e- Do not dryclean\u003cbr/\u003e- Machine wash: warm (max 40C or 105F)\u003cbr/\u003e- Non-chlorine: bleach as needed\u003cbr/\u003e- Tumble dry: low heat\u003cbr/\u003e- Iron, steam or dry: medium heat\u003cbr/\u003e",
+                                     "tags":  [
+                                                  "Men\u0027s Clothing",
+                                                  "T-shirts",
+                                                  "Women\u0027s Clothing",
+                                                  "DTG",
+                                                  "V-neck",
+                                                  "Unisex",
+                                                  "Regular fit",
+                                                  "Cotton",
+                                                  "Valentine\u0027s Day Picks",
+                                                  "Neck Labels",
+                                                  "TikTok"
+                                              ],
+                                     "options":  [
+                                                     {
+                                                         "name":  "Sizes",
+                                                         "type":  "size",
+                                                         "values":  [
+                                                                        {
+                                                                            "id":  14,
+                                                                            "title":  "S"
+                                                                        },
+                                                                        {
+                                                                            "id":  15,
+                                                                            "title":  "M"
+                                                                        },
+                                                                        {
+                                                                            "id":  16,
+                                                                            "title":  "L"
+                                                                        },
+                                                                        {
+                                                                            "id":  17,
+                                                                            "title":  "XL"
+                                                                        },
+                                                                        {
+                                                                            "id":  18,
+                                                                            "title":  "2XL"
+                                                                        }
+                                                                    ],
+                                                         "display_in_preview":  false
+                                                     },
+                                                     {
+                                                         "name":  "Colors",
+                                                         "type":  "color",
+                                                         "values":  [
+                                                                        {
+                                                                            "id":  874,
+                                                                            "title":  "White",
+                                                                            "colors":  [
+                                                                                           "#FFFFFF"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  1054,
+                                                                            "title":  "Ash",
+                                                                            "colors":  [
+                                                                                           "#f2f2f2",
+                                                                                           "#ebebeb"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  630,
+                                                                            "title":  "Deep Heather",
+                                                                            "colors":  [
+                                                                                           "#8A8C88"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  873,
+                                                                            "title":  "Black",
+                                                                            "colors":  [
+                                                                                           "#000000"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  631,
+                                                                            "title":  "Athletic Heather",
+                                                                            "colors":  [
+                                                                                           "#C7C7C5"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  885,
+                                                                            "title":  "True Royal",
+                                                                            "colors":  [
+                                                                                           "#2B4DA4"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  635,
+                                                                            "title":  "Heather True Royal",
+                                                                            "colors":  [
+                                                                                           "#46599C"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  877,
+                                                                            "title":  "Asphalt",
+                                                                            "colors":  [
+                                                                                           "#525455"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  629,
+                                                                            "title":  "Dark Grey Heather",
+                                                                            "colors":  [
+                                                                                           "#1C1B1C"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  883,
+                                                                            "title":  "Navy",
+                                                                            "colors":  [
+                                                                                           "#1A1F35"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  916,
+                                                                            "title":  "Team Purple",
+                                                                            "colors":  [
+                                                                                           "#3C1F66"
+                                                                                       ]
+                                                                        },
+                                                                        {
+                                                                            "id":  923,
+                                                                            "title":  "Red",
+                                                                            "colors":  [
+                                                                                           "#BA2326"
+                                                                                       ]
+                                                                        }
+                                                                    ],
+                                                         "display_in_preview":  true
+                                                     }
+                                                 ],
+                                     "variants":  [
+                                                      {
+                                                          "id":  23766,
+                                                          "sku":  "32608578525479732395",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / White",
+                                                          "grams":  140,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          874,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23694,
+                                                          "sku":  "30971384576075260216",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Black",
+                                                          "grams":  130,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          873,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23733,
+                                                          "sku":  "28995946691458558509",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Black",
+                                                          "grams":  140,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          873,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23752,
+                                                          "sku":  "12397545139470995774",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Navy",
+                                                          "grams":  140,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          883,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23798,
+                                                          "sku":  "23829296985555635018",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Red",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          923,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23713,
+                                                          "sku":  "30216591187322357525",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Navy",
+                                                          "grams":  130,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          883,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23805,
+                                                          "sku":  "35128445756430854925",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / White",
+                                                          "grams":  150,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          874,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23688,
+                                                          "sku":  "14667577073252113407",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / White",
+                                                          "grams":  110,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          874,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23693,
+                                                          "sku":  "10217604633349179033",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Athletic Heather",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          631,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23654,
+                                                          "sku":  "17372063441835479617",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Athletic Heather",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          631,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23771,
+                                                          "sku":  "19997338574918925458",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Athletic Heather",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          631,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23674,
+                                                          "sku":  "21937788066685152931",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Navy",
+                                                          "grams":  110,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          883,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23655,
+                                                          "sku":  "30552274583228839827",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Black",
+                                                          "grams":  110,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          873,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23791,
+                                                          "sku":  "43761935450357802656",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Navy",
+                                                          "grams":  150,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          883,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23732,
+                                                          "sku":  "24787499148917011626",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Athletic Heather",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          631,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23720,
+                                                          "sku":  "98281864315851090553",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Red",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          923,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23681,
+                                                          "sku":  "85222511424710343207",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Red",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          923,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23759,
+                                                          "sku":  "53243974740892371511",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Red",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          923,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23727,
+                                                          "sku":  "54470533797857663903",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / White",
+                                                          "grams":  130,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          874,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23772,
+                                                          "sku":  "79823580833191281302",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Black",
+                                                          "grams":  150,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          873,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23802,
+                                                          "sku":  "21739940492064193329",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / True Royal",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          885,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23709,
+                                                          "sku":  "29780932713634668379",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Heather True Royal",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          635,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23762,
+                                                          "sku":  "30487455769306669536",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Team Purple",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          916,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23664,
+                                                          "sku":  "20604697066679389160",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Deep Heather",
+                                                          "grams":  110,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          630,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23663,
+                                                          "sku":  "26438475571091984192",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Dark Grey Heather",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          629,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23670,
+                                                          "sku":  "25630063358462512625",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Heather True Royal",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          635,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23787,
+                                                          "sku":  "31393815682955080918",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Heather True Royal",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  false,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          635,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23780,
+                                                          "sku":  "19191687883990679121",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Dark Grey Heather",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          629,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23741,
+                                                          "sku":  "86517960359541704731",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Dark Grey Heather",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          629,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23723,
+                                                          "sku":  "15371996029395801340",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Team Purple",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          916,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23763,
+                                                          "sku":  "67063533712408001313",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / True Royal",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          885,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23702,
+                                                          "sku":  "23340601416062359132",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Dark Grey Heather",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          629,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23684,
+                                                          "sku":  "14133254026846369621",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Team Purple",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  false,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          916,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23801,
+                                                          "sku":  "15824448087331709320",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Team Purple",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          916,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23781,
+                                                          "sku":  "31418420421812631230",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Deep Heather",
+                                                          "grams":  150,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          630,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23742,
+                                                          "sku":  "33968998382505767822",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Deep Heather",
+                                                          "grams":  140,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          630,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23748,
+                                                          "sku":  "74811497672487072621",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Heather True Royal",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          635,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23685,
+                                                          "sku":  "26528791686529730391",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / True Royal",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          885,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23724,
+                                                          "sku":  "31123431848712759451",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / True Royal",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          885,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23703,
+                                                          "sku":  "28351962208977171322",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Deep Heather",
+                                                          "grams":  130,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          630,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23730,
+                                                          "sku":  "91755146902977893304",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Asphalt",
+                                                          "grams":  140,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          877,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  38917,
+                                                          "sku":  "13195379440165620127",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Ash",
+                                                          "grams":  110,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          1054,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  38923,
+                                                          "sku":  "44139792117960978040",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "L / Ash",
+                                                          "grams":  140,
+                                                          "is_enabled":  true,
+                                                          "is_default":  true,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          1054,
+                                                                          16
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  38920,
+                                                          "sku":  "20205331319980840714",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Ash",
+                                                          "grams":  130,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          1054,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23769,
+                                                          "sku":  "47355217199321340585",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Asphalt",
+                                                          "grams":  150,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          877,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  38926,
+                                                          "sku":  "10993704983445868492",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "XL / Ash",
+                                                          "grams":  150,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          1054,
+                                                                          17
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23691,
+                                                          "sku":  "11284566847274398912",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "M / Asphalt",
+                                                          "grams":  130,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          877,
+                                                                          15
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23652,
+                                                          "sku":  "62997279546378033414",
+                                                          "cost":  1428,
+                                                          "price":  2380,
+                                                          "title":  "S / Asphalt",
+                                                          "grams":  110,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          877,
+                                                                          14
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23811,
+                                                          "sku":  "32106776599842974066",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Black",
+                                                          "grams":  160,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          873,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23830,
+                                                          "sku":  "31016696138966005321",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Navy",
+                                                          "grams":  160,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          883,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23837,
+                                                          "sku":  "32267455635427215037",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Red",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          923,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23844,
+                                                          "sku":  "22950071301081704589",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / White",
+                                                          "grams":  160,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          874,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23810,
+                                                          "sku":  "18922389529834292509",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Athletic Heather",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          631,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23820,
+                                                          "sku":  "17951623805464243851",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Deep Heather",
+                                                          "grams":  160,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          630,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23840,
+                                                          "sku":  "27570430364700106457",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Team Purple",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          916,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23826,
+                                                          "sku":  "13746989359358637399",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Heather True Royal",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          635,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23819,
+                                                          "sku":  "10275462052940151172",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Dark Grey Heather",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          629,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23841,
+                                                          "sku":  "83385455562152118989",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / True Royal",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          885,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  38929,
+                                                          "sku":  "90792935702928738285",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Ash",
+                                                          "grams":  160,
+                                                          "is_enabled":  true,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          1054,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      },
+                                                      {
+                                                          "id":  23808,
+                                                          "sku":  "13709317445082595160",
+                                                          "cost":  1655,
+                                                          "price":  2758,
+                                                          "title":  "2XL / Asphalt",
+                                                          "grams":  160,
+                                                          "is_enabled":  false,
+                                                          "is_default":  false,
+                                                          "is_available":  true,
+                                                          "is_printify_express_eligible":  false,
+                                                          "options":  [
+                                                                          877,
+                                                                          18
+                                                                      ],
+                                                          "quantity":  1
+                                                      }
+                                                  ],
+                                     "images":  [
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23766/111735/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front",
+                                                        "variant_ids":  [
+                                                                            23766,
+                                                                            23805,
+                                                                            23688,
+                                                                            23727,
+                                                                            23844
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  true,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23766/111736/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back",
+                                                        "variant_ids":  [
+                                                                            23766,
+                                                                            23805,
+                                                                            23688,
+                                                                            23727,
+                                                                            23844
+                                                                        ],
+                                                        "position":  "back",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23766/111710/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front-2",
+                                                        "variant_ids":  [
+                                                                            23766,
+                                                                            23805,
+                                                                            23688,
+                                                                            23727,
+                                                                            23844
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23766/111711/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back-2",
+                                                        "variant_ids":  [
+                                                                            23766,
+                                                                            23805,
+                                                                            23688,
+                                                                            23727,
+                                                                            23844
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/38923/111735/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front",
+                                                        "variant_ids":  [
+                                                                            38917,
+                                                                            38923,
+                                                                            38920,
+                                                                            38926,
+                                                                            38929
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  true,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/38923/111736/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back",
+                                                        "variant_ids":  [
+                                                                            38917,
+                                                                            38923,
+                                                                            38920,
+                                                                            38926,
+                                                                            38929
+                                                                        ],
+                                                        "position":  "back",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/38923/111710/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front-2",
+                                                        "variant_ids":  [
+                                                                            38917,
+                                                                            38923,
+                                                                            38920,
+                                                                            38926,
+                                                                            38929
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/38923/111711/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back-2",
+                                                        "variant_ids":  [
+                                                                            38917,
+                                                                            38923,
+                                                                            38920,
+                                                                            38926,
+                                                                            38929
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/38923/111746/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=size-chart",
+                                                        "variant_ids":  [
+                                                                            38917,
+                                                                            38923,
+                                                                            38920,
+                                                                            38926,
+                                                                            38929
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111735/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  true,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111736/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "back",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111710/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front-2",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111711/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back-2",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111712/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=folded",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23742/111746/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=size-chart",
+                                                        "variant_ids":  [
+                                                                            23664,
+                                                                            23781,
+                                                                            23742,
+                                                                            23703,
+                                                                            23820
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111735/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  true,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111736/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "back",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111710/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front-2",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111711/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back-2",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111712/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=folded",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23733/111746/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=size-chart",
+                                                        "variant_ids":  [
+                                                                            23694,
+                                                                            23733,
+                                                                            23655,
+                                                                            23772,
+                                                                            23811
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111735/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  true,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111736/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "back",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111710/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=front-2",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "front",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111711/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=back-2",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111712/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=folded",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    },
+                                                    {
+                                                        "src":  "https://images-api.printify.com/mockup/68e7fadfa0c8ed2f2c0e129d/23752/111746/personalized-patriotic-v-neck-tee-custom-name-shirt-4th-of-july-top-memorial-day-outfit-americana-graphic-tee.jpg?camera_label=size-chart",
+                                                        "variant_ids":  [
+                                                                            23752,
+                                                                            23713,
+                                                                            23674,
+                                                                            23791,
+                                                                            23830
+                                                                        ],
+                                                        "position":  "other",
+                                                        "is_default":  false,
+                                                        "is_selected_for_publishing":  true,
+                                                        "order":  null
+                                                    }
+                                                ],
+                                     "created_at":  "2025-10-09 18:11:43+00:00",
+                                     "updated_at":  "2025-10-09 18:15:15+00:00",
+                                     "visible":  true,
+                                     "is_locked":  false,
+                                     "blueprint_id":  48,
+                                     "user_id":  11418587,
+                                     "shop_id":  17992768,
+                                     "print_provider_id":  99,
+                                     "print_areas":  [
+                                                         {
+                                                             "variant_ids":  [
+                                                                                 23766,
+                                                                                 23694,
+                                                                                 23733,
+                                                                                 23752,
+                                                                                 23798,
+                                                                                 23713,
+                                                                                 23805,
+                                                                                 23688,
+                                                                                 23693,
+                                                                                 23654,
+                                                                                 23771,
+                                                                                 23674,
+                                                                                 23655,
+                                                                                 23791,
+                                                                                 23732,
+                                                                                 23720,
+                                                                                 23681,
+                                                                                 23759,
+                                                                                 23727,
+                                                                                 23772,
+                                                                                 23802,
+                                                                                 23709,
+                                                                                 23762,
+                                                                                 23664,
+                                                                                 23663,
+                                                                                 23670,
+                                                                                 23787,
+                                                                                 23780,
+                                                                                 23741,
+                                                                                 23723,
+                                                                                 23763,
+                                                                                 23702,
+                                                                                 23684,
+                                                                                 23801,
+                                                                                 23781,
+                                                                                 23742,
+                                                                                 23748,
+                                                                                 23685,
+                                                                                 23724,
+                                                                                 23703,
+                                                                                 23730,
+                                                                                 38917,
+                                                                                 38923,
+                                                                                 38920,
+                                                                                 23769,
+                                                                                 38926,
+                                                                                 23691,
+                                                                                 23652,
+                                                                                 23811,
+                                                                                 23830,
+                                                                                 23837,
+                                                                                 23844,
+                                                                                 23810,
+                                                                                 23820,
+                                                                                 23840,
+                                                                                 23826,
+                                                                                 23819,
+                                                                                 23841,
+                                                                                 38929,
+                                                                                 23808
+                                                                             ],
+                                                             "placeholders":  [
+                                                                                  {
+                                                                                      "position":  "back",
+                                                                                      "images":  [
+
+                                                                                                 ],
+                                                                                      "decoration_method":  "dtg"
+                                                                                  },
+                                                                                  {
+                                                                                      "position":  "front",
+                                                                                      "images":  [
+                                                                                                     {
+                                                                                                         "id":  "68e7fab97df11b46700d23cf",
+                                                                                                         "name":  "ai-generated-image 12.png",
+                                                                                                         "type":  "image/png",
+                                                                                                         "height":  803,
+                                                                                                         "width":  607,
+                                                                                                         "x":  0.5000000000000001,
+                                                                                                         "y":  0.5000000000000001,
+                                                                                                         "scale":  0.8566801862984111,
+                                                                                                         "angle":  0,
+                                                                                                         "src":  "https://pfy-prod-image-storage.s3.us-east-2.amazonaws.com/11418587/d200c6e3-7c12-4649-8f1f-b67927e9523b"
+                                                                                                     }
+                                                                                                 ],
+                                                                                      "decoration_method":  "dtg"
+                                                                                  },
+                                                                                  {
+                                                                                      "position":  "neck",
+                                                                                      "images":  [
+                                                                                                     {
+                                                                                                         "id":  "5941187eb8e7e37b3f0e62e5",
+                                                                                                         "name":  "text_layer.svg",
+                                                                                                         "type":  "text/plain",
+                                                                                                         "height":  100,
+                                                                                                         "width":  100,
+                                                                                                         "x":  0.5,
+                                                                                                         "y":  0.5,
+                                                                                                         "scale":  1,
+                                                                                                         "angle":  0,
+                                                                                                         "font_family":  "",
+                                                                                                         "font_size":  0,
+                                                                                                         "font_weight":  0,
+                                                                                                         "font_color":  "",
+                                                                                                         "font_style":  "normal",
+                                                                                                         "input_text":  "",
+                                                                                                         "text_align":  "left"
+                                                                                                     }
+                                                                                                 ],
+                                                                                      "decoration_method":  "dtf"
+                                                                                  }
+                                                                              ],
+                                                             "font_color":  "auto",
+                                                             "font_family":  "Roboto",
+                                                             "background":  "transparent"
+                                                         }
+                                                     ],
+                                     "print_details":  [
+
+                                                       ],
+                                     "sales_channel_properties":  [
+
+                                                                  ],
+                                     "is_printify_express_eligible":  false,
+                                     "is_printify_express_enabled":  false,
+                                     "is_economy_shipping_eligible":  true,
+                                     "is_economy_shipping_enabled":  true,
+                                     "is_deleted":  false,
+                                     "original_product_id":  "",
+                                     "views":  [
+                                                   {
+                                                       "id":  186,
+                                                       "label":  "Front side",
+                                                       "position":  "front",
+                                                       "files":  [
+                                                                     {
+                                                                         "src":  "https://images.printify.com/api/catalog/68dcfec53d7626b90a099172.svg",
+                                                                         "variant_ids":  [
+                                                                                             23652,
+                                                                                             23654,
+                                                                                             23655,
+                                                                                             23663,
+                                                                                             23664,
+                                                                                             23670,
+                                                                                             23674,
+                                                                                             23681,
+                                                                                             23684,
+                                                                                             23685,
+                                                                                             23688,
+                                                                                             23691,
+                                                                                             23693,
+                                                                                             23694,
+                                                                                             23702,
+                                                                                             23703,
+                                                                                             23709,
+                                                                                             23713,
+                                                                                             23720,
+                                                                                             23723,
+                                                                                             23724,
+                                                                                             23727,
+                                                                                             23730,
+                                                                                             23732,
+                                                                                             23733,
+                                                                                             23741,
+                                                                                             23742,
+                                                                                             23748,
+                                                                                             23752,
+                                                                                             23759,
+                                                                                             23762,
+                                                                                             23763,
+                                                                                             23766,
+                                                                                             23769,
+                                                                                             23771,
+                                                                                             23772,
+                                                                                             23780,
+                                                                                             23781,
+                                                                                             23787,
+                                                                                             23791,
+                                                                                             23798,
+                                                                                             23801,
+                                                                                             23802,
+                                                                                             23805,
+                                                                                             23808,
+                                                                                             23810,
+                                                                                             23811,
+                                                                                             23819,
+                                                                                             23820,
+                                                                                             23826,
+                                                                                             23830,
+                                                                                             23837,
+                                                                                             23840,
+                                                                                             23841,
+                                                                                             23844,
+                                                                                             38917,
+                                                                                             38920,
+                                                                                             38923,
+                                                                                             38926,
+                                                                                             38929
+                                                                                         ]
+                                                                     }
+                                                                 ]
+                                                   },
+                                                   {
+                                                       "id":  187,
+                                                       "label":  "Back side",
+                                                       "position":  "back",
+                                                       "files":  [
+                                                                     {
+                                                                         "src":  "https://images.printify.com/api/catalog/68dd3346299d632ef9040623.svg",
+                                                                         "variant_ids":  [
+                                                                                             23652,
+                                                                                             23654,
+                                                                                             23655,
+                                                                                             23663,
+                                                                                             23664,
+                                                                                             23670,
+                                                                                             23674,
+                                                                                             23681,
+                                                                                             23684,
+                                                                                             23685,
+                                                                                             23688,
+                                                                                             23691,
+                                                                                             23693,
+                                                                                             23694,
+                                                                                             23702,
+                                                                                             23703,
+                                                                                             23709,
+                                                                                             23713,
+                                                                                             23720,
+                                                                                             23723,
+                                                                                             23724,
+                                                                                             23727,
+                                                                                             23730,
+                                                                                             23732,
+                                                                                             23733,
+                                                                                             23741,
+                                                                                             23742,
+                                                                                             23748,
+                                                                                             23752,
+                                                                                             23759,
+                                                                                             23762,
+                                                                                             23763,
+                                                                                             23766,
+                                                                                             23769,
+                                                                                             23771,
+                                                                                             23772,
+                                                                                             23780,
+                                                                                             23781,
+                                                                                             23787,
+                                                                                             23791,
+                                                                                             23798,
+                                                                                             23801,
+                                                                                             23802,
+                                                                                             23805,
+                                                                                             23808,
+                                                                                             23810,
+                                                                                             23811,
+                                                                                             23819,
+                                                                                             23820,
+                                                                                             23826,
+                                                                                             23830,
+                                                                                             23837,
+                                                                                             23840,
+                                                                                             23841,
+                                                                                             23844,
+                                                                                             38917,
+                                                                                             38920,
+                                                                                             38923,
+                                                                                             38926,
+                                                                                             38929
+                                                                                         ]
+                                                                     }
+                                                                 ]
+                                                   },
+                                                   {
+                                                       "id":  2885,
+                                                       "label":  "Neck label inner",
+                                                       "position":  "neck",
+                                                       "files":  [
+                                                                     {
+                                                                         "src":  "https://images.printify.com/api/catalog/68de901789d6d7340e01d142.svg",
+                                                                         "variant_ids":  [
+                                                                                             23652,
+                                                                                             23654,
+                                                                                             23655,
+                                                                                             23663,
+                                                                                             23664,
+                                                                                             23670,
+                                                                                             23674,
+                                                                                             23681,
+                                                                                             23684,
+                                                                                             23685,
+                                                                                             23688,
+                                                                                             23691,
+                                                                                             23693,
+                                                                                             23694,
+                                                                                             23702,
+                                                                                             23703,
+                                                                                             23709,
+                                                                                             23713,
+                                                                                             23720,
+                                                                                             23723,
+                                                                                             23724,
+                                                                                             23727,
+                                                                                             23730,
+                                                                                             23732,
+                                                                                             23733,
+                                                                                             23741,
+                                                                                             23742,
+                                                                                             23748,
+                                                                                             23752,
+                                                                                             23759,
+                                                                                             23762,
+                                                                                             23763,
+                                                                                             23766,
+                                                                                             23769,
+                                                                                             23771,
+                                                                                             23772,
+                                                                                             23780,
+                                                                                             23781,
+                                                                                             23787,
+                                                                                             23791,
+                                                                                             23798,
+                                                                                             23801,
+                                                                                             23802,
+                                                                                             23805,
+                                                                                             23808,
+                                                                                             23810,
+                                                                                             23811,
+                                                                                             23819,
+                                                                                             23820,
+                                                                                             23826,
+                                                                                             23830,
+                                                                                             23837,
+                                                                                             23840,
+                                                                                             23841,
+                                                                                             23844,
+                                                                                             38917,
+                                                                                             38920,
+                                                                                             38923,
+                                                                                             38926,
+                                                                                             38929
+                                                                                         ]
+                                                                     }
+                                                                 ]
+                                                   }
+                                               ]
+                                 }
+                 }
+             ],
+    "debug":  {
+                  "shopCount":  1,
+                  "perShop":  [
+                                  {
+                                      "shopId":  17992768,
+                                      "shopTitle":  "Studio Prints",
+                                      "status":  200,
+                                      "count":  1,
+                                      "sampleProductId":  "68e7fadfa0c8ed2f2c0e129d"
+                                  }
+                              ],
+                  "totalProducts":  1
+              }
+}
