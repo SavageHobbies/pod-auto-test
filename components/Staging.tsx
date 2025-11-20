@@ -1,13 +1,17 @@
+
 // components/Staging.tsx
 
 import React, { useState } from 'react';
 import { StagedProduct } from '../types.ts';
 import OutboxIcon from './icons/OutboxIcon.tsx';
 import SpinnerIcon from './icons/SpinnerIcon.tsx';
+import CreateIcon from './icons/CreateIcon.tsx';
 
 interface StagingProps {
   stagedProducts: StagedProduct[];
   showNotification: (message: string, type: 'success' | 'error') => void;
+  onStartNew: () => void;
+  onBackToWorkflow: () => void;
 }
 
 const StagedProductCard: React.FC<{
@@ -44,7 +48,7 @@ const StagedProductCard: React.FC<{
     </div>
 );
 
-const Staging: React.FC<StagingProps> = ({ stagedProducts, showNotification }) => {
+const Staging: React.FC<StagingProps> = ({ stagedProducts, showNotification, onStartNew, onBackToWorkflow }) => {
     const [selectedProducts, setSelectedProducts] = useState<Set<number>>(new Set());
     const [isPublishing, setIsPublishing] = useState(false);
 
@@ -73,26 +77,43 @@ const Staging: React.FC<StagingProps> = ({ stagedProducts, showNotification }) =
     };
 
     return (
-        <div className="space-y-8">
-             <div className="flex items-center space-x-4">
-                <OutboxIcon className="h-10 w-10 text-brand-primary" />
-                <h1 className="text-3xl font-bold text-white">Staging Area</h1>
+        <div className="space-y-8 pb-20">
+             <div className="flex items-center justify-between">
+                <div className="flex items-center space-x-4">
+                    <OutboxIcon className="h-10 w-10 text-brand-primary" />
+                    <h1 className="text-3xl font-bold text-white">Staging Area</h1>
+                </div>
+                <div className="flex gap-4">
+                     <button 
+                        onClick={onBackToWorkflow}
+                        className="text-slate-400 hover:text-white font-medium px-4 py-2"
+                     >
+                         Back to Edit Workflow
+                     </button>
+                     <button 
+                        onClick={onStartNew}
+                        className="bg-gradient-to-r from-teal-600 to-teal-500 hover:from-teal-500 hover:to-teal-400 text-white font-bold py-2 px-6 rounded-md flex items-center shadow-lg shadow-teal-900/50"
+                     >
+                         <CreateIcon className="w-5 h-5 mr-2" />
+                         Start New Design
+                     </button>
+                </div>
             </div>
             
-            <div className="bg-slate-800 p-4 rounded-lg flex items-center justify-between sticky top-0 z-10 border-b border-slate-700 mb-4">
+            <div className="bg-slate-800 p-4 rounded-lg flex items-center justify-between sticky top-0 z-10 border-b border-slate-700 mb-4 shadow-md">
                 <p className="font-semibold">{selectedProducts.size} of {stagedProducts.length} selected</p>
                 <div className="flex gap-4">
                      <button 
                         onClick={() => handlePublish('Printify')}
                         disabled={isPublishing || selectedProducts.size === 0}
-                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md flex items-center disabled:bg-slate-600"
+                        className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-md flex items-center disabled:bg-slate-600 disabled:opacity-50"
                     >
                          {isPublishing ? <SpinnerIcon /> : 'Publish to Printify'}
                     </button>
                     <button
                         onClick={() => handlePublish('Etsy')}
                         disabled={isPublishing || selectedProducts.size === 0}
-                        className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-md flex items-center disabled:bg-slate-600"
+                        className="bg-orange-500 hover:bg-orange-600 text-white font-bold py-2 px-4 rounded-md flex items-center disabled:bg-slate-600 disabled:opacity-50"
                     >
                         {isPublishing ? <SpinnerIcon /> : 'Publish to Etsy'}
                     </button>
@@ -111,10 +132,16 @@ const Staging: React.FC<StagingProps> = ({ stagedProducts, showNotification }) =
                     ))}
                 </div>
             ) : (
-                <div className="text-center py-20">
+                <div className="text-center py-20 bg-slate-800/50 rounded-lg border-2 border-dashed border-slate-700">
                     <OutboxIcon className="w-16 h-16 text-slate-600 mx-auto mb-4" />
                     <h2 className="text-xl font-bold text-slate-400">Your Staging Area is Empty</h2>
                     <p className="text-slate-500 mt-2">Complete a product workflow to send items here, ready for publishing.</p>
+                    <button 
+                        onClick={onStartNew}
+                        className="mt-6 text-teal-400 font-bold hover:underline"
+                    >
+                        Start a new workflow
+                    </button>
                 </div>
             )}
         </div>

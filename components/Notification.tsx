@@ -1,7 +1,8 @@
+
 import React, { useEffect } from 'react';
-import CheckCircleIcon from './icons/CheckCircleIcon';
-import XCircleIcon from './icons/XCircleIcon';
-import XIcon from './icons/XIcon';
+import CheckCircleIcon from './icons/CheckCircleIcon.tsx';
+import XCircleIcon from './icons/XCircleIcon.tsx';
+import XIcon from './icons/XIcon.tsx';
 
 interface NotificationProps {
   message: string;
@@ -38,3 +39,4 @@ const Notification: React.FC<NotificationProps> = ({ message, type, onClose }) =
 };
 
 export default Notification;
+    

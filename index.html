@@ -29,41 +29,55 @@
       }
       /* Custom Scrollbar */
       .custom-scrollbar::-webkit-scrollbar {
-        width: 8px;
+        width: 6px;
       }
       .custom-scrollbar::-webkit-scrollbar-track {
-        background: #1e293b; /* slate-800 */
+        background: #0f172a; 
       }
       .custom-scrollbar::-webkit-scrollbar-thumb {
-        background: #475569; /* slate-600 */
-        border-radius: 4px;
+        background: #334155; 
+        border-radius: 3px;
       }
       .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-        background: #64748b; /* slate-500 */
+        background: #475569; 
       }
+      
+      /* Modern Gradient Background */
+      body {
+          background-color: #0f172a; /* slate-900 */
+          background-image: radial-gradient(circle at 50% 0%, #1e293b 0%, #0f172a 100%);
+          min-height: 100vh;
+      }
+
       /* Custom Brand Colors */
       .bg-brand-primary { background-color: #14b8a6; } /* teal-500 */
       .bg-brand-secondary { background-color: #0d9488; } /* teal-600 */
-      .text-brand-primary { color: #14b8a6; }
+      .text-brand-primary { color: #2dd4bf; } /* teal-400 */
       .border-brand-primary { border-color: #14b8a6; }
       .ring-brand-primary { --tw-ring-color: #14b8a6; }
-      .bg-brand-secondary { background-color: #ccfbf1; } /* teal-100 */
-      .text-brand-primary { color: #0f766e; } /* teal-700 */
+      
+      /* Glass Effect Utility */
+      .glass-panel {
+          background: rgba(30, 41, 59, 0.7);
+          backdrop-filter: blur(10px);
+          -webkit-backdrop-filter: blur(10px);
+          border: 1px solid rgba(255, 255, 255, 0.05);
+      }
 
       /* Checkerboard Background for Transparency */
       .checkerboard-bg {
-          background-color: #475569; /* slate-600 for fallback */
+          background-color: #334155;
           background-image:
-              linear-gradient(45deg, #334155 25%, transparent 25%),
-              linear-gradient(-45deg, #334155 25%, transparent 25%),
-              linear-gradient(45deg, transparent 75%, #334155 75%),
-              linear-gradient(-45deg, transparent 75%, #334155 75%);
-          background-size: 16px 16px;
-          background-position: 0 0, 0 8px, 8px -8px, -8px 0px;
+              linear-gradient(45deg, #1e293b 25%, transparent 25%),
+              linear-gradient(-45deg, #1e293b 25%, transparent 25%),
+              linear-gradient(45deg, transparent 75%, #1e293b 75%),
+              linear-gradient(-45deg, transparent 75%, #1e293b 75%);
+          background-size: 20px 20px;
+          background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
       }
     </style>
   </head>
-  <body class="bg-slate-900">
+  <body class="text-slate-200">
     <div id="root"></div>
   </body>
 </html>

@@ -1,7 +1,7 @@
 
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer } from 'recharts';
-import AnalyticsIcon from './icons/AnalyticsIcon';
+import AnalyticsIcon from './icons/AnalyticsIcon.tsx';
 
 const mockSalesData = [
   { name: 'Dog Lover Tee', sales: 4000 },
@@ -58,3 +58,4 @@ const Analytics: React.FC = () => {
 };
 
 export default Analytics;
+    

@@ -62,7 +62,8 @@ const MarketingGenerator: React.FC<MarketingGeneratorProps> = ({ workflowState, 
         updateWorkflow({ marketingCopy: newCopy });
     };
 
-    const displayMockup = workflowState.mockups[0] || workflowState.asset.imageUrl;
+    // FIX: The mockups object contains 'light' and 'dark' arrays, so we need to access them correctly.
+    const displayMockup = workflowState.mockups.light[0]?.url || workflowState.mockups.dark[0]?.url || workflowState.asset.imageUrl;
 
     return (
         <div className="max-w-6xl mx-auto space-y-8">

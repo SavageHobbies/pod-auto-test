@@ -1,3 +1,4 @@
+
 // types.ts
 
 export type AppView = 
@@ -11,7 +12,7 @@ export type AppView =
   | 'trendResearch' 
   | 'analytics' 
   | 'settings'
-  | 'staging'; // New view for staged products
+  | 'staging';
 
 export interface DesignAsset {
   id: number;
@@ -49,30 +50,46 @@ export interface AppNotification {
   type: 'success' | 'error';
 }
 
-// For Catalog Data
-export interface Variant {
-  id: number;
-  name: string; 
-  options: { value: string, hex?: string }[];
+// --- New Catalog Structure ---
+
+export interface CatalogVariant {
+    id: number;
+    title: string; // e.g., "Red / S"
+    color: string;
+    hex: string;
+    size: string;
 }
 
-export interface Provider {
-  id: number;
-  name: string;
-  price: number;
+export interface PrintProvider {
+    id: number;
+    name: string; // e.g., "Monster Digital"
+    location: string; // e.g., "US"
+    itemPrice: number;
+    shippingPrice: number;
+    avgProductionTime: number; // in days
+    colors: string[]; // List of available hex codes or names
+    rating: number; // 0-5 stars
 }
 
-export interface Product {
-  id: number;
-  name: string;
-  type: 'T-Shirt' | 'Hoodie' | 'Mug' | 'Accessory' | 'Hat';
-  description: string;
-  imageUrl: string;
-  providers: Provider[];
-  variants: Variant[];
+export interface ProductBlueprint {
+    id: number;
+    name: string; // e.g., "Unisex Jersey Short Sleeve Tee"
+    brand: string; // e.g., "Bella+Canvas 3001"
+    description: string;
+    imageUrl: string;
+    category: 'T-Shirt' | 'Hoodie' | 'Mug' | 'Accessory' | 'Home & Living';
+    providers: PrintProvider[];
+    variants: CatalogVariant[]; // All possible variants for this blueprint
 }
 
-// For Mockup Generation
+// For backward compatibility in some views, 'Product' alias refers to the Blueprint + Selected Provider combo
+export interface SelectedProductInfo {
+    blueprint: ProductBlueprint;
+    provider: PrintProvider;
+}
+
+// ---------------------------
+
 export type MockupStyle = 'flatLay' | 'folded' | 'hanging' | 'man' | 'woman' | 'kid';
 
 export interface MockupGenerationParams {
@@ -85,7 +102,6 @@ export interface MockupData {
   params: MockupGenerationParams;
 }
 
-// For Staging Area
 export interface StagedProduct {
     id: number;
     designImageUrl: string;
@@ -98,24 +114,27 @@ export interface StagedProduct {
     videoUrl: string | null;
 }
 
-
-// For Workflow State Management
 export interface WorkflowState {
   asset: DesignAsset;
   designVariantUrl: string | null;
-  selectedProduct: Product | null;
-  selectedProvider: Provider | null;
+  
+  // Updated to store Blueprint + Provider
+  selectedProduct: ProductBlueprint | null; 
+  selectedProvider: PrintProvider | null;
+
   selectedColors: string[];
   selectedLightColors: string[];
   selectedDarkColors: string[];
+  
   mockups: {
     light: MockupData[];
     dark: MockupData[];
   };
+  
   mockupGenerationConfig?: {
       theme: string;
   };
-  // New: Separate video URLs for each package
+  
   videoUrls: {
       light: string | null;
       dark: string | null;
